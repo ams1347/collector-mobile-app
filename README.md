@@ -10,6 +10,7 @@ This is a collective database of all games that users have uploaded. If you see 
 
 #Known bugs/issues
 * App crashes when selecting "My Collection" menu item when the user does not have any items in their personal collection yet.
+* Can't select any year past 2020 when creating a new game.
 
 #Improvements to be made
 From Dr. Lucas Layman:
