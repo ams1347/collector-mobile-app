@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CreateGameActivity">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:src="@drawable/no_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/load_picture"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgView"/>
+
+
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/image_of_game"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonLoadPicture"
+        />
+
+    <TextView
+        android:id="@+id/title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_label"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/title_input"
+        app:layout_constraintTop_toTopOf="@id/title_input"
+        app:layout_constraintBottom_toBottomOf="@id/title_input" />
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/title_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_image"
+        app:layout_constraintBottom_toTopOf="@id/description_input"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/description_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_label"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/description_input"
+        app:layout_constraintTop_toTopOf="@id/description_input"
+        app:layout_constraintBottom_toBottomOf="@id/description_input" />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/title_input"
+        app:layout_constraintEnd_toEndOf="@+id/title_input"
+        app:layout_constraintTop_toBottomOf="@+id/title_input"
+        app:layout_constraintBottom_toTopOf="@id/releaseDate_label"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/releaseDate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/release_date_label"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_input" />
+
+    <Spinner
+        android:id="@+id/monthSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/months"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/daySelector"
+        app:layout_constraintTop_toTopOf="@id/yearSelector"
+        app:layout_constraintBottom_toBottomOf="@id/yearSelector"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Spinner
+        android:id="@+id/daySelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/days"
+        app:layout_constraintStart_toEndOf="@id/monthSelector"
+        app:layout_constraintEnd_toEndOf="@id/yearSelector"
+        app:layout_constraintTop_toTopOf="@id/yearSelector"
+        app:layout_constraintBottom_toBottomOf="@id/yearSelector"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Spinner
+        android:id="@+id/yearSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/years"
+        app:layout_constraintStart_toEndOf="@id/daySelector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/releaseDate_label"
+        app:layout_constraintBottom_toTopOf="@id/console_input"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/console_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/console_label"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/console_input"
+        app:layout_constraintTop_toTopOf="@id/console_input"
+        app:layout_constraintBottom_toBottomOf="@id/console_input" />
+
+    <EditText
+        android:id="@+id/console_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/title_input"
+        app:layout_constraintEnd_toEndOf="@+id/title_input"
+        app:layout_constraintTop_toBottomOf="@+id/monthSelector"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/console_input"
+        android:onClick="onClickSubmitCreate"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

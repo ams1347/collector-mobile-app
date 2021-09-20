@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="collection" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaf6cbe8-8ce9-4c3e-b1bb-d1712518270f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/schwartzfinalproject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/schwartzfinalproject/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jTT3LMlnGv0TCNYdBXtYvqKOBk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-02T01:16:48.961Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1904989231">
+      <recent name="com.example.schwartzfinalproject" />
+    </key>
+    <key name="android.template.-1530845866">
+      <recent name="com.example.schwartzfinalproject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\res\layout" />
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\res\menu" />
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\res\drawable" />
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\res\menu" />
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\res\layout" />
+      <recent name="C:\Users\duskt\AndroidStudioProjects\csc315-fall20-term-project-schwartz-final-project\app\src\main\java\com\example\schwartzfinalproject" />
+    </key>
+    <key name="android.template.1372822825">
+      <recent name="com.example.myapplication" />
+    </key>
+    <key name="android.template.696388115">
+      <recent name="com.example.schwartzfinalproject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="My_Application.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaf6cbe8-8ce9-4c3e-b1bb-d1712518270f" name="Default Changelist" comment="" />
+      <created>1603826881779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603826881779</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Milestone 2: Created functional log in screen and temporary &quot;homepage&quot; activity with functional log out button. Made it so the back button cannot be used to navigate between these pages when logging in/out.">
+      <created>1603833457919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603833457919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Milestone 2: Finished all requirements. Implemented sign up activity, changed to custom colors. Added a snackbar for feedback for when the user has successfully signed in/been authenticated.">
+      <created>1603916320291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603916320291</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Milestone 3: Fleshed out homepage to show games in database. Modified CaptionedImagesAdapter into GamesCaptionedImagesAdapter to use Firebase and Glide. Created DetailActivity (not complete) that properly receives information about specific Game Objects and displays relevant information.">
+      <created>1605728702913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605728702913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Milestone 3: Finished view item activity (DetailActivity). It's not necessarily finished in terms of design, but for now it displays the information about each game.">
+      <created>1605731453013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605731453013</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Milestone 3: Created CreateGameActivity. A FAB on HomepageActivity now takes you to CreateGameActivity where you can input a new game. The user is prompted to input a title, description, release date, and console, as well as upload an image. The image is optional, and everything else is validated (title, desc., and console just have to be Strings, while the date must actually be a valid date). Also fixed minor logging in bug.">
+      <created>1605746217084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605746217084</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Milestone 3: (Mostly) finished milestone 3. The only requirement that has not been achieved is a way of tying items to specific users. Everything else has been accomplished. The PersonalCollectionActivity does not function, but it won't crash the app. Also, there is a ton of commented out code in DetailActivity which accounts for the majority of what I did between the last commit and this one.">
+      <created>1605756905047</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605756905047</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Milestone 4: Created User and PersonalGame classes. When a user signs up for the first time, a document is created for them in the &quot;users&quot; collection. Also fixed issue where you couldn't use the default &quot;no image :(&quot; png when creating a new game. You can now actually create a game without needing to upload an image.">
+      <created>1606862488844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606862488844</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Milestone 4: Added FAB to DetailActivity that allows you to add a game to your personal collection. It is not yet displayed.">
+      <created>1606863261134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606863261134</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Milestone 4: Implemented PersonalDetailActivity and functionality; you can now click on games in your personal collection and view the additional information each game has.">
+      <created>1606865136575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606865136575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Milestone 4: Fixed minor bugs regarding going back between different activities and deleting games. Games can now be deleted from personal collections without errors.">
+      <created>1606872031540</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606872031540</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Milestone 4: Created EditPersonalGameActivity for editing personal games. Worked on properly reading in and displaying existing game data to be edited. Games cannot yet be edited and saved.">
+      <created>1606946249729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606946249729</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Milestone 4: Finished update personal game feature. You can now add games to your personal collection, where you can delete or edit them. Deleting only deletes from your personal collection, and editing only modifies the version that is visible in your personal collection.">
+      <created>1606947950639</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606947950639</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Milestone 4: Fixed minor constraint layout bugs in edit personal game and personal detail activities that made the layouts uneven. Fixed minor bug where images uploaded for personal games could potentially replace original database image instead of just the personal image.">
+      <created>1606949295638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606949295638</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Milestone 4: Implemented search functionality into homepage activity. You can now search for games in the overall database by name.">
+      <created>1607032342922</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607032342922</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Milestone 4: Implemented multiple collection functionality. You can now have multiple collections and choose which collection to add a game to on the personal collection page. Currently, collections cannot be deleted once created.">
+      <created>1607041383074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607041383074</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Milestone 4: Fixed bug where games couldn't be edited and saved due to implementation of multiple user collections. Games can now be edited and saved as before.">
+      <created>1607041872973</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607041872973</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Milestone 4: Final Submission. Added toasts for loading personal collections (as they sometimes take a bit to load), and modified some string resources to match what is currently possible. The only bug that I wasn't able to work out was that on a PersonalDetailActivity screen, hitting back via the toolbar won't make the previous collection reappear (it'll have to be manually selected again), whereas if you use the system back button it remembers the personal collection that you were viewing. That being said, nothing crashes, and all other functionality is in (except deleting/editing personal collection names. You can edit/delete games, but not collections; just ran out of time, will probably add it later for fun). Thanks for a great semester!">
+      <created>1607054265647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607054265647</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Milestone 2: Created functional log in screen and temporary &quot;homepage&quot; activity with functional log out button. Made it so the back button cannot be used to navigate between these pages when logging in/out." />
+    <MESSAGE value="Milestone 2: Finished all requirements. Implemented sign up activity, changed to custom colors. Added a snackbar for feedback for when the user has successfully signed in/been authenticated." />
+    <MESSAGE value="Milestone 3: Fleshed out homepage to show games in database. Modified CaptionedImagesAdapter into GamesCaptionedImagesAdapter to use Firebase and Glide. Created DetailActivity (not complete) that properly receives information about specific Game Objects and displays relevant information." />
+    <MESSAGE value="Milestone 3: Finished view item activity (DetailActivity). It's not necessarily finished in terms of design, but for now it displays the information about each game." />
+    <MESSAGE value="Milestone 3: Created CreateGameActivity. A FAB on HomepageActivity now takes you to CreateGameActivity where you can input a new game. The user is prompted to input a title, description, release date, and console, as well as upload an image. The image is optional, and everything else is validated (title, desc., and console just have to be Strings, while the date must actually be a valid date). Also fixed minor logging in bug." />
+    <MESSAGE value="Milestone 3: (Mostly) finished milestone 3. The only requirement that has not been achieved is a way of tying items to specific users. Everything else has been accomplished. The PersonalCollectionActivity does not function, but it won't crash the app. Also, there is a ton of commented out code in DetailActivity which accounts for the majority of what I did between the last commit and this one." />
+    <MESSAGE value="Milestone 4: Created User and PersonalGame classes. When a user signs up for the first time, a document is created for them in the &quot;users&quot; collection. Also fixed issue where you couldn't use the default &quot;no image :(&quot; png when creating a new game. You can now actually create a game without needing to upload an image." />
+    <MESSAGE value="Milestone 4: Added FAB to DetailActivity that allows you to add a game to your personal collection. It is not yet displayed." />
+    <MESSAGE value="Milestone 4: Implemented PersonalDetailActivity and functionality; you can now click on games in your personal collection and view the additional information each game has." />
+    <MESSAGE value="Milestone 4: Fixed minor bugs regarding going back between different activities and deleting games. Games can now be deleted from personal collections without errors." />
+    <MESSAGE value="Milestone 4: Created EditPersonalGameActivity for editing personal games. Worked on properly reading in and displaying existing game data to be edited. Games cannot yet be edited and saved." />
+    <MESSAGE value="Milestone 4: Finished update personal game feature. You can now add games to your personal collection, where you can delete or edit them. Deleting only deletes from your personal collection, and editing only modifies the version that is visible in your personal collection." />
+    <MESSAGE value="Milestone 4: Fixed minor constraint layout bugs in edit personal game and personal detail activities that made the layouts uneven. Fixed minor bug where images uploaded for personal games could potentially replace original database image instead of just the personal image." />
+    <MESSAGE value="Milestone 4: Implemented search functionality into homepage activity. You can now search for games in the overall database by name." />
+    <MESSAGE value="Milestone 4: Implemented multiple collection functionality. You can now have multiple collections and choose which collection to add a game to on the personal collection page. Currently, collections cannot be deleted once created." />
+    <MESSAGE value="Milestone 4: Fixed bug where games couldn't be edited and saved due to implementation of multiple user collections. Games can now be edited and saved as before." />
+    <MESSAGE value="Milestone 4: Final Submission. Added toasts for loading personal collections (as they sometimes take a bit to load), and modified some string resources to match what is currently possible. The only bug that I wasn't able to work out was that on a PersonalDetailActivity screen, hitting back via the toolbar won't make the previous collection reappear (it'll have to be manually selected again), whereas if you use the system back button it remembers the personal collection that you were viewing. That being said, nothing crashes, and all other functionality is in (except deleting/editing personal collection names. You can edit/delete games, but not collections; just ran out of time, will probably add it later for fun). Thanks for a great semester!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Milestone 4: Final Submission. Added toasts for loading personal collections (as they sometimes take a bit to load), and modified some string resources to match what is currently possible. The only bug that I wasn't able to work out was that on a PersonalDetailActivity screen, hitting back via the toolbar won't make the previous collection reappear (it'll have to be manually selected again), whereas if you use the system back button it remembers the personal collection that you were viewing. That being said, nothing crashes, and all other functionality is in (except deleting/editing personal collection names. You can edit/delete games, but not collections; just ran out of time, will probably add it later for fun). Thanks for a great semester!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1607034567827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607034567827" />
+    <state x="336" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606860622356">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1606860622356" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606861307967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606861307967" />
+    <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog" timestamp="1603831267229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1603831267229" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1606866887353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606866887353" />
+    <state x="625" y="281" key="AndroidCreateXmlResourceDialog" timestamp="1607025461873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="625" y="281" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1607025461873" />
+    <state x="165" y="0" width="996" height="709" key="CommitChangelistDialog2" timestamp="1607054264765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="165" y="0" width="996" height="709" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607054264765" />
+    <state x="531" y="216" key="FileChooserDialogImpl" timestamp="1607271640092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="216" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607271640092" />
+    <state width="1322" height="56" key="GridCell.Tab.0.bottom" timestamp="1607054876647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="56" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607054876647" />
+    <state width="1322" height="56" key="GridCell.Tab.0.center" timestamp="1607054876647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="56" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607054876647" />
+    <state width="1322" height="56" key="GridCell.Tab.0.left" timestamp="1607054876647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="56" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607054876647" />
+    <state width="1322" height="56" key="GridCell.Tab.0.right" timestamp="1607054876647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="56" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607054876647" />
+    <state x="263" y="107" key="IDE.errors.dialog" timestamp="1605642764474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="107" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1605642764474" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607054272637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607054272637" />
+    <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1605749953427">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="142" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1605749953427" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603827122649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603827122649" />
+    <state x="0" y="0" width="1103" height="632" key="dock-window-1" timestamp="1606942345053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1103" height="632" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1606942345053" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605750767987">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605750767987" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607027115599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607027115599" />
+  </component>
+</project>

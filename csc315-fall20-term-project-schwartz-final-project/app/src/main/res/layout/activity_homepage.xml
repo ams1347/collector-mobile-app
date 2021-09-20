@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".HomepageActivity">
+
+            <include
+                layout="@layout/toolbar_main"
+                android:id="@+id/toolbar"
+                />
+
+            <TextView
+                android:id="@+id/homepage_temp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/homepage_temp_text"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+            <EditText
+                android:id="@+id/searchBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:inputType="textAutoComplete"
+                android:hint="@string/search_hint"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/homepage_temp_text"
+                app:layout_constraintBottom_toTopOf="@id/personal_game_recycler"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/personal_game_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchBox"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        android:onClick="onClickCreateGame"
+        android:contentDescription="@string/add_new_game" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

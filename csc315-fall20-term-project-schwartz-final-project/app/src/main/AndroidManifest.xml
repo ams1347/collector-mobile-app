@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schwartzfinalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomAppTheme">
+        <activity android:name=".EditPersonalGameActivity"
+            android:parentActivityName=".PersonalDetailActivity" />
+        <activity
+            android:name=".PersonalDetailActivity"
+            android:noHistory="true"
+            android:parentActivityName=".PersonalCollectionActivity" />
+        <activity
+            android:name=".PersonalCollectionActivity"
+            android:label="My Collection"
+            android:parentActivityName=".HomepageActivity" />
+        <activity
+            android:name=".CreateGameActivity"
+            android:label="Create New Game" />
+        <activity
+            android:name=".SignUpActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:noHistory="true"
+            android:parentActivityName=".HomepageActivity" />
+        <activity android:name=".HomepageActivity" />
+        <activity
+            android:name=".LogInActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
